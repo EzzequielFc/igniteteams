@@ -8,7 +8,7 @@ import { Highlight } from "@components/Highlight";
 import { Container } from "./styles";
 
 export function Groups() {
-  const [groups, setGroups] = useState<string[]>(["Galera da Rocket", "Amigos"]);
+  const [groups, setGroups] = useState<string[]>([ ]);
 
   return (
     <Container>
